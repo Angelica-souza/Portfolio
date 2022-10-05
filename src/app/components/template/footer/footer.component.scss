@@ -1,0 +1,18 @@
+$color__background: #fff;
+$color__text: #545454;
+$color__hover: #004AAD;
+
+.footer{
+    background-color: $color__background;
+    position: fixed; 
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+
+    span{
+        color: $color__text;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
