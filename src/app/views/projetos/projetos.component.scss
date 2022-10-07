@@ -34,26 +34,48 @@
 
                 gap: 30px;
             }
+        }
 
-            .button {
-                height: 45px;
-                border: none;
-                border-radius: 10px;
-                background-color: #004AAD;
-                text-transform: uppercase;
-                font-size: 20px;
-                font-weight: 400;
 
-                width: 100%;
+        .projects__three {
+            padding-top: 10px;
 
-                a {
-                    text-decoration: none;
-                    color: #fff;
-                }
+            display: flex;
+            gap: 50px;
+            padding-bottom: 20px;
+
+            .projects__blockTree {
+                width: 50%;
             }
 
-            .projects__three {
-                padding-bottom: 20px;
+            .projects__imgTree img {
+                width: 100%;
+            }
+
+            .projects_text {
+                width: 50%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+
+        .button {
+            height: 45px;
+            border: none;
+            border-radius: 10px;
+            background-color: #004AAD;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 400;
+
+            width: 100%;
+
+            a {
+                text-decoration: none;
+                color: #fff;
             }
         }
     }

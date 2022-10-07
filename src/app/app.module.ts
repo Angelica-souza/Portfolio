@@ -7,7 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from "@angular/material/toolbar";
-import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatCardModule} from "@angular/material/card";
+import {MatTabsModule} from '@angular/material/tabs';
+
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProjetosComponent } from './views/projetos/projetos.component';
@@ -28,7 +30,8 @@ import { ContatoComponent } from './views/contato/contato.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatCardModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
