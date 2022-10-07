@@ -1,0 +1,60 @@
+.main {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #fff;
+
+    .main__container {
+
+        color: black;
+
+        ::ng-deep .mat-tab-label {
+            color: black;
+        }
+
+        .projects {
+            padding-top: 10px;
+
+            display: flex;
+            gap: 90px;
+
+
+            .projects__img {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .projects__description {
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                gap: 30px;
+            }
+
+            .button {
+                height: 45px;
+                border: none;
+                border-radius: 10px;
+                background-color: #004AAD;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 400;
+
+                width: 100%;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+
+            .projects__three {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
