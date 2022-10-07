@@ -9,6 +9,9 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatCardModule} from "@angular/material/card";
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatIconModule} from '@angular/material/icon';
 
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
@@ -31,7 +34,10 @@ import { ContatoComponent } from './views/contato/contato.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    MatDividerModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
