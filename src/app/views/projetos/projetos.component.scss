@@ -2,10 +2,16 @@
     margin-top: 20px;
     padding: 50px;
     background-color: #fff;
+    position: static;
 
     .main__container {
-
         color: black;
+
+        height: 80vh;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
         ::ng-deep .mat-tab-label {
             color: black;

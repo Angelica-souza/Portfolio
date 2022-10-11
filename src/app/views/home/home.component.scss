@@ -3,7 +3,8 @@ $color__text: #545454;
 .main {
     margin-top: 20px;
     background-color: #fff;
-    // position: static;
+    height: 100vh;
+    position: static;
     padding: 0;
 
     .main__container {
@@ -13,7 +14,7 @@ $color__text: #545454;
 
         .container__left {
             width: 40%;
-            height: 80vh;
+            height: 100vh;
 
             .left__img {
                 height: 100%;
@@ -22,7 +23,13 @@ $color__text: #545454;
 
         .container__center {
             width: 75%;
-            margin: 0px 120px 0px 0px;
+            height: 100vh;
+
+            margin-right: 100px;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
 
             .title {
                 color: $color__text;
@@ -48,5 +55,16 @@ $color__text: #545454;
             }
         }
 
+        @media (max-width: 886px){
+            .container__left {
+                display: none;
+             }
+
+             .container__center{
+                width: 80%;
+             }
+        }
     }
 }
+
+

@@ -3,6 +3,7 @@ $color__text: #545454;
 .main {
     background-color: #fff;
     margin-top: 20px;
+    position: static;
 
     .main__container {
         display: flex;
